@@ -1,0 +1,11 @@
+<h1>Questions</h1>
+
+<div class="form-container">
+    <div class="form-group">
+        <label for="pergunta">{{vm.user.firstName}},insira sua pergunta:</label>
+        <input type="text" onfocus="this.value='';" id="pergunta" class="form-control" ng-model="vm.question" required />
+    </div>
+    <div class="form-group" style = "margin-top:5%">
+        <button class="btn btn-primary" style="background-color:gray;border-color: gray ;color:black" ng-click="vm.saveQuestions()">Salvar</button>
+    </div>
+</div>
